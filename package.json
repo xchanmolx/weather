@@ -1,0 +1,31 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather App using PostgreSQL, Express, React, and Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchanmolx/weather.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Chiantine P. Manigos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xchanmolx/weather/issues"
+  },
+  "homepage": "https://github.com/xchanmolx/weather#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pg": "^7.15.1"
+  }
+}
