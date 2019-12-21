@@ -4,7 +4,7 @@
   "description": "Weather App using PostgreSQL, Express, React, and Node.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,11 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "pg": "^7.15.1"
+    "pg": "^7.15.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
   }
 }
