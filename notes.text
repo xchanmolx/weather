@@ -1,0 +1,103 @@
+Full Stack - PERN - Part #3 - 00:00
+
+$ npm install -g express-generator
+$ express
+
+-----------------------------------------
+First: make repository @ github
+git clone
+npm init
+npm install create-react-app -g
+create-react-app "my-app"
+npm install concurrently nodemon --save-dev
+npm install express cookie-parser --save
+npm install pg --save
+npm install body-parser --save
+npm install request request-promise --save
+npm install bootstrap reactstrap --save
+
+-----------------------------------------
+
+npm install axios --save
+npm install --save redux react-redux
+npm install --save react-router-dom
+npm install --save redux-thunk
+
+npm install --save antd
+npm install --save react-particles-js
+npm install styled-components@beta react@^16.8 react-dom@^16.8 react-is@^16.8
+npm install --save react-animated-text
+npm install --save react-tooltip
+
+git config --global user.name "xchanmolx"
+git config --global user.email "cmanigos@gmail.com
+
+// Change git remote github
+Go to the root of the directory.
+List your existing remotes in order to get the name of the remote you want to change.
+
+$ git remote -v
+origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+origin  git@github.com:USERNAME/REPOSITORY.git (push)
+Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+
+$ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+Verify that the remote URL has changed.
+
+$ git remote -v
+---------------------------------------
+echo "# chantin-portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:xchanmolx/chantin-portfolio.git
+git push -u origin master
+
+git push -f origin master
+
+git bash terminal
+cd ~/.ssh
+ssh-keygen -t rsa -C "cmanigos@gmail.com"
+
+FIREBASE
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase use --add
+firebase deploy
+
+Project Console: https://console.firebase.google.com/project/chantin-4218a/overview
+Hosting URL: https://chantin-4218a.firebaseapp.com
+
+Project Console: https://console.firebase.google.com/project/react-my-burger-5d935/overview
+Hosting URL: https://react-my-burger-5d935.firebaseapp.com
+
+npm install eslint --save-dev
+npm install eslint-plugin-react --save-dev
+
+npx create-react-app = Windows 8.1
+
+redux devtools extension
+https://github.com/zalmoxisus/redux-devtools-extension
+
+https://codepen.io/
+jsbin.com/
+
+How to save my places in google earth pro
+
+Step 1: Find location file
+Windows
+Press Ctrl + Esc + r or Windows key + r.
+. In the "Open" box, enter "%USERPROFILE%\AppData\LocalLow\Google\GoogleEarth".
+If you're using Windows XP, enter "%USERPROFILE%\Application Data\Google\GoogleEarth" instead.
+Select OK.
+In the directory, you'll see a file called "myplaces.kml". This file has your saved locations.
+Note: If you want to replace a corrupted myplaces.kml file, use "myplaces.backup.kml."
+
+Step 2: Move location file
+There are a few ways you can transfer the file with your saved locations to another computer:
+
+Save the file in Google Drive
+Email the file to yourself
+Save the file to a USB drive
+Tip: Back up your myplaces.kml file to a removable device, like USB drive.
