@@ -1,4 +1,4 @@
-Full Stack - PERN - Part #4 - 00:00
+Full Stack - PERN - Part #4 - 09:41
 
 $ npm install -g express-generator
 $ express
@@ -17,7 +17,13 @@ npm install body-parser --save
 npm install request request-promise --save
 // client
 npm install bootstrap reactstrap --save
-
+// deployment
+heroku login
+heroku create weather-app-cm
+heroku addons:create heroku-postgresql:hobby-dev --name=weather-db-cm
+heroku addons:attach weather-db-cm --app=weather-app-cm
+heroku pg:psql --app weather-app-cm
+CREATE TABLE tableName (columns)
 -----------------------------------------
 
 npm install axios --save
