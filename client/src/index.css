@@ -7,6 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.form-group {
+  width: 275px;
+  margin: 0px auto;
+}
+
+.input-group {
+  width: 275px;
+  margin: 0px auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.weather {
+  margin-top: 30px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -4,6 +4,8 @@
   "description": "Weather App using PostgreSQL, Express, React, and Node.",
   "main": "index.js",
   "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
     "server": "nodemon server"
   },
   "repository": {
@@ -21,7 +23,8 @@
   "homepage": "https://github.com/xchanmolx/weather#readme",
   "devDependencies": {
     "concurrently": "^5.0.2",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.4"
   },
   "dependencies": {
     "body-parser": "^1.19.0",

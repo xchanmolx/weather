@@ -1,4 +1,4 @@
-Full Stack - PERN - Part #3 - 00:00
+Full Stack - PERN - Part #4 - 00:00
 
 $ npm install -g express-generator
 $ express
@@ -9,11 +9,13 @@ git clone
 npm init
 npm install create-react-app -g
 create-react-app "my-app"
+// server
 npm install concurrently nodemon --save-dev
 npm install express cookie-parser --save
 npm install pg --save
 npm install body-parser --save
 npm install request request-promise --save
+// client
 npm install bootstrap reactstrap --save
 
 -----------------------------------------
