@@ -1,10 +1,5 @@
-Full Stack - PERN - Part #4 - 09:41
-
-$ npm install -g express-generator
-$ express
-
 -----------------------------------------
-First: make repository @ github
+First: make repository @ github             
 git clone
 npm init
 npm install create-react-app -g
@@ -15,6 +10,7 @@ npm install express cookie-parser --save
 npm install pg --save
 npm install body-parser --save
 npm install request request-promise --save
+npm install dotenv --save
 // client
 npm install bootstrap reactstrap --save
 // deployment
@@ -24,6 +20,9 @@ heroku addons:create heroku-postgresql:hobby-dev --name=weather-db-cm
 heroku addons:attach weather-db-cm --app=weather-app-cm
 heroku pg:psql --app weather-app-cm
 CREATE TABLE tableName (columns)
+git push heroku master
+heroku ps:scale web=1
+heroku open
 -----------------------------------------
 
 npm install axios --save
@@ -76,6 +75,7 @@ firebase deploy
 
 Project Console: https://console.firebase.google.com/project/chantin-4218a/overview
 Hosting URL: https://chantin-4218a.firebaseapp.com
+https://weather-app-cm.herokuapp.com/
 
 Project Console: https://console.firebase.google.com/project/react-my-burger-5d935/overview
 Hosting URL: https://react-my-burger-5d935.firebaseapp.com
